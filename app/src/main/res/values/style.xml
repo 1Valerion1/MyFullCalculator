@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="calculator">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#373A37</item>
+        <item name="fontFamily">@font/museo_sans</item>
+    </style>
+
+    <style name="text_io">
+        <item name="android:textColor">#373A37</item>
+        <item name="android:textSize">40sp</item>
+        <item name="fontFamily">@font/digital</item>
+
+    </style>
+
+
+    <style name="ButtonNumbers" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">29sp</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textColor">@color/basic_button_left</item>
+        <item name="android:background">@color/Button_background_left</item>
+    </style>
+
+    <style name="ActionButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">29sp</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textColor">@color/basic_button_right</item>
+        <item name="android:background">@color/Button_background_right</item>
+
+    </style>
+
+
+
+
+</resources>
